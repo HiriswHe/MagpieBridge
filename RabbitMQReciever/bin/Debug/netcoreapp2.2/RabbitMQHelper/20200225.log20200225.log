@@ -1,0 +1,2 @@
+2020-02-25 17:28:24,225  [WorkPool-Session#1:Connection(34ecd50c-ca4f-42fc-bfbc-88539b0b55cf,amqp://127.0.0.1:5672)]  INFO   Data Source=180.166.138.158;Initial Catalog=boxcode_only;User ID=sa;Password=Pechoin.com;MultipleActiveResultSets=true;
+2020-02-25 17:34:30,737  [WorkPool-Session#1:Connection(32b08b96-2f5d-4425-b351-670b639c68b5,amqp://127.0.0.1:5672)]  INFO   Data Source=180.166.138.158;Initial Catalog=boxcode_only;User ID=sa;Password=Pechoin.com;MultipleActiveResultSets=true;

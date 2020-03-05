@@ -1,0 +1,9 @@
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\bin\Debug\netcoreapp2.2\RabbitMQEntity.deps.json
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\bin\Debug\netcoreapp2.2\RabbitMQEntity.dll
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\bin\Debug\netcoreapp2.2\RabbitMQEntity.pdb
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\obj\Debug\netcoreapp2.2\RabbitMQEntity.csproj.CoreCompileInputs.cache
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\obj\Debug\netcoreapp2.2\RabbitMQEntity.AssemblyInfoInputs.cache
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\obj\Debug\netcoreapp2.2\RabbitMQEntity.AssemblyInfo.cs
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\obj\Debug\netcoreapp2.2\RabbitMQEntity.dll
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\obj\Debug\netcoreapp2.2\RabbitMQEntity.pdb
+F:\Work\mtscitech\MagpieBridge\RabbitMQEntity\obj\Debug\netcoreapp2.2\RabbitMQEntity.csprojAssemblyReference.cache
