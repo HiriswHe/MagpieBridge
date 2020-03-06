@@ -7,3 +7,11 @@ F:\Work\mtscitech\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfo.
 F:\Work\mtscitech\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.dll
 F:\Work\mtscitech\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.pdb
 F:\Work\mtscitech\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.csprojAssemblyReference.cache
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\bin\Debug\netcoreapp2.2\Utils.deps.json
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\bin\Debug\netcoreapp2.2\Utils.dll
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\bin\Debug\netcoreapp2.2\Utils.pdb
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.csproj.CoreCompileInputs.cache
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfoInputs.cache
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfo.cs
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.dll
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\Utils\obj\Debug\netcoreapp2.2\Utils.pdb

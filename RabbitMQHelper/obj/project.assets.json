@@ -5692,11 +5692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQHelper\\RabbitMQHelper.csproj",
+      "projectUniqueName": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQHelper\\RabbitMQHelper.csproj",
       "projectName": "RabbitMQHelper",
-      "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQHelper\\RabbitMQHelper.csproj",
+      "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQHelper\\RabbitMQHelper.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQHelper\\obj\\",
+      "outputPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5714,14 +5714,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj": {
-              "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj"
+            "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj": {
+              "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj"
             },
-            "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj": {
-              "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj"
+            "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj": {
+              "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj"
             },
-            "F:\\Work\\mtscitech\\MagpieBridge\\Utils\\Utils.csproj": {
-              "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\Utils\\Utils.csproj"
+            "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\Utils\\Utils.csproj": {
+              "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\Utils\\Utils.csproj"
             }
           }
         }

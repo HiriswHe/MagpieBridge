@@ -5573,11 +5573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Work\\mtscitech\\MagpieBridge\\Utils\\Utils.csproj",
+      "projectUniqueName": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\Utils\\Utils.csproj",
       "projectName": "Utils",
-      "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\Utils\\Utils.csproj",
+      "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\Utils\\Utils.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "F:\\Work\\mtscitech\\MagpieBridge\\Utils\\obj\\",
+      "outputPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\Utils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

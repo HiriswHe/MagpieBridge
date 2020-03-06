@@ -5671,11 +5671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj",
+      "projectUniqueName": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj",
       "projectName": "RabbitMQFactory",
-      "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj",
+      "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQFactory\\RabbitMQFactory.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQFactory\\obj\\",
+      "outputPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQFactory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5693,8 +5693,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj": {
-              "projectPath": "F:\\Work\\mtscitech\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj"
+            "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj": {
+              "projectPath": "F:\\Work\\mtscitech\\MagpieBridgeGitHub\\MagpieBridge\\RabbitMQUtils\\RabbitMQUtils.csproj"
             }
           }
         }

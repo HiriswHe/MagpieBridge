@@ -1,0 +1,17 @@
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\bin\Debug\netcoreapp2.2\RabbitMQRecieverInterface.deps.json
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\bin\Debug\netcoreapp2.2\RabbitMQRecieverInterface.dll
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\bin\Debug\netcoreapp2.2\RabbitMQRecieverInterface.pdb
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.csproj.CoreCompileInputs.cache
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.AssemblyInfoInputs.cache
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.AssemblyInfo.cs
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.dll
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.pdb
+F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.csprojAssemblyReference.cache
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\bin\Debug\netcoreapp2.2\RabbitMQRecieverInterface.deps.json
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\bin\Debug\netcoreapp2.2\RabbitMQRecieverInterface.dll
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\bin\Debug\netcoreapp2.2\RabbitMQRecieverInterface.pdb
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.csproj.CoreCompileInputs.cache
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.AssemblyInfoInputs.cache
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.AssemblyInfo.cs
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.dll
+F:\Work\mtscitech\MagpieBridgeGitHub\MagpieBridge\RabbitMQRecieverInterface\obj\Debug\netcoreapp2.2\RabbitMQRecieverInterface.pdb

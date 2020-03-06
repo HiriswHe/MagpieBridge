@@ -1,0 +1,83 @@
+2020-03-06 15:57:58,568  [1]  INFO   消息队列消费程序启动...
+2020-03-06 16:09:48,977  [1]  INFO   消息队列消费程序启动...
+2020-03-06 16:09:50,981  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160950976
+2020-03-06 16:09:51,084  [WorkPool-Session#2:Connection(87b2dbce-9225-4f36-845a-c89f1a3098bd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160951084
+2020-03-06 16:09:51,084  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160950976
+2020-03-06 16:09:51,086  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160951086
+2020-03-06 16:09:51,098  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160951086
+2020-03-06 16:09:51,103  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160951103
+2020-03-06 16:09:51,103  [WorkPool-Session#2:Connection(d28f103d-7ee1-404a-9cd6-0bb65e9a1550,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160951103
+2020-03-06 16:09:56,701  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160951103
+2020-03-06 16:09:56,701  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160956701
+2020-03-06 16:09:58,839  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160956701
+2020-03-06 16:09:58,839  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306160958839
+2020-03-06 16:10:04,395  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160958839
+2020-03-06 16:10:04,395  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161004395
+2020-03-06 16:10:04,409  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306161004395
+2020-03-06 16:10:04,410  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161004410
+2020-03-06 16:10:04,448  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306161004410
+2020-03-06 16:10:04,448  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161004448
+2020-03-06 16:10:04,458  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306161004448
+2020-03-06 16:10:04,458  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161004458
+2020-03-06 16:10:04,469  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306161004458
+2020-03-06 16:11:20,151  [WorkPool-Session#2:Connection(d28f103d-7ee1-404a-9cd6-0bb65e9a1550,amqp://127.0.0.1:5672)]  ERROR  MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.InvalidOperationException: Sequence contains more than one matching element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at daoextend.baseservice.CURDAllBaseService`2.InsertOrExistNot(TBO bo, Int32 id, String tableIndex) in F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\daoextend\baseservice\CURDAllBaseService.cs:line 43
+   at RabbitMQConsumers.ConsumerPublish1.HandleMessage(Object ch, BasicDeliverEventArgs ea, String msg) in F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQConsumers\ConsumerPublish1.cs:line 18
+   at RabbitMQReciever.ComsumeRabbitMQHostedService.<>c__DisplayClass12_1.<BindConsumer>b__0(Object ch, BasicDeliverEventArgs ea) in F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQReciever\ComsumeRabbitMQHostedService.cs:line 121
+2020-03-06 16:11:20,151  [WorkPool-Session#2:Connection(87b2dbce-9225-4f36-845a-c89f1a3098bd,amqp://127.0.0.1:5672)]  ERROR  MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.InvalidOperationException: Sequence contains more than one matching element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at daoextend.baseservice.CURDAllBaseService`2.InsertOrExistNot(TBO bo, Int32 id, String tableIndex) in F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\daoextend\baseservice\CURDAllBaseService.cs:line 43
+   at RabbitMQConsumers.ConsumerPublish1.HandleMessage(Object ch, BasicDeliverEventArgs ea, String msg) in F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQConsumers\ConsumerPublish1.cs:line 18
+   at RabbitMQReciever.ComsumeRabbitMQHostedService.<>c__DisplayClass12_1.<BindConsumer>b__0(Object ch, BasicDeliverEventArgs ea) in F:\Work\mtscitech\MtDB3.0ToMt4.0\3to4\Source\MTDB3.0To4.0\RabbitMQReciever\ComsumeRabbitMQHostedService.cs:line 121
+2020-03-06 16:11:20,152  [WorkPool-Session#2:Connection(87b2dbce-9225-4f36-845a-c89f1a3098bd,amqp://127.0.0.1:5672)]  ERROR  ContentErrorStart:20200306160951084:{"__TableIndex__":null,"UUID":null,"id":-947972548,"qrcode":"md0001901098U2C613DG1Q93","orderno":"SC2019030035","batchno":"20190306 C1","package_level":1,"package_level_name":"袋","product_code":"02020010","enterprise_code":"6UJBN38W","collection_time":1551857991000,"period_date":"2024-03-04T15:39:51","create_date":"2019-03-06T15:39:51","create_time":"2019-03-06T15:39:51","qrcode_parent":"md012190306MIGM3O1LDUN40","package_level_parent":2,"package_level_name_parent":"箱","qrcode_weight":"400g"}
+2020-03-06 16:11:20,152  [WorkPool-Session#2:Connection(87b2dbce-9225-4f36-845a-c89f1a3098bd,amqp://127.0.0.1:5672)]  ERROR  ContentErrorFinished:20200306160951084
+2020-03-06 16:11:20,152  [WorkPool-Session#2:Connection(d28f103d-7ee1-404a-9cd6-0bb65e9a1550,amqp://127.0.0.1:5672)]  ERROR  ContentErrorStart:20200306160951103:{"__TableIndex__":null,"UUID":null,"id":474274828,"qrcode":"md000191028GDCM8L3NPO090","orderno":"SC2020010053","batchno":"20200110 C1","package_level":1,"package_level_name":"袋","product_code":"02020039","enterprise_code":"6UJBN38W","collection_time":1578619253000,"period_date":"2025-01-08T09:20:53","create_date":"2020-01-10T09:20:53","create_time":"2020-01-10T09:20:53","qrcode_parent":"md00119073149IO0JV1DNW73","package_level_parent":2,"package_level_name_parent":"箱","qrcode_weight":"400g"}
+2020-03-06 16:11:20,152  [WorkPool-Session#2:Connection(d28f103d-7ee1-404a-9cd6-0bb65e9a1550,amqp://127.0.0.1:5672)]  ERROR  ContentErrorFinished:20200306160951103
+2020-03-06 16:11:20,155  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161120155
+2020-03-06 16:11:20,159  [WorkPool-Session#2:Connection(87b2dbce-9225-4f36-845a-c89f1a3098bd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160951084
+2020-03-06 16:11:20,159  [WorkPool-Session#2:Connection(87b2dbce-9225-4f36-845a-c89f1a3098bd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161120159
+2020-03-06 16:11:23,229  [WorkPool-Session#2:Connection(d28f103d-7ee1-404a-9cd6-0bb65e9a1550,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306160951103
+2020-03-06 16:11:23,229  [WorkPool-Session#2:Connection(d28f103d-7ee1-404a-9cd6-0bb65e9a1550,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161123229
+2020-03-06 16:11:35,991  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306161120155
+2020-03-06 16:11:35,993  [WorkPool-Session#2:Connection(2e4a4242-e846-4a5f-9dec-569de1eb9195,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161135993
+2020-03-06 16:14:01,814  [1]  INFO   消息队列消费程序启动...
+2020-03-06 16:14:03,866  [WorkPool-Session#2:Connection(02997332-e878-4a41-a2e0-8574f1375759,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161403866
+2020-03-06 16:14:03,875  [WorkPool-Session#2:Connection(cc4d4697-ce81-4906-b5a0-8b28b20143cf,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161403875
+2020-03-06 16:14:07,279  [WorkPool-Session#2:Connection(cc4d4697-ce81-4906-b5a0-8b28b20143cf,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306161403875
+2020-03-06 16:15:22,044  [1]  INFO   消息队列消费程序启动...
+2020-03-06 16:15:24,020  [WorkPool-Session#2:Connection(b26dcc18-850d-496d-aba1-1e93518885a3,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306161524019
+2020-03-06 16:28:27,054  [1]  INFO   消息队列消费程序启动...
+2020-03-06 16:28:29,040  [WorkPool-Session#2:Connection(cc846e17-b37e-4a2c-aa76-a52dc3c728d4,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306162829040
+2020-03-06 16:31:12,413  [1]  INFO   消息队列消费程序启动...
+2020-03-06 16:31:14,429  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163114429
+2020-03-06 16:34:49,413  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163114429
+2020-03-06 16:34:49,414  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163449414
+2020-03-06 16:35:10,614  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163449414
+2020-03-06 16:35:10,614  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163510614
+2020-03-06 16:35:10,713  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163510614
+2020-03-06 16:35:10,713  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163510713
+2020-03-06 16:35:10,780  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163510713
+2020-03-06 16:35:10,780  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163510780
+2020-03-06 16:35:10,863  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163510780
+2020-03-06 16:35:10,863  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163510863
+2020-03-06 16:35:10,981  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163510863
+2020-03-06 16:35:10,981  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163510981
+2020-03-06 16:35:11,068  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163510981
+2020-03-06 16:35:11,068  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163511068
+2020-03-06 16:35:11,118  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163511068
+2020-03-06 16:35:11,118  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   HandleMessage:20200306163511118
+2020-03-06 16:35:11,184  [WorkPool-Session#2:Connection(a5ad9ec8-8bba-4bb6-962b-0d1085e979cd,amqp://127.0.0.1:5672)]  INFO   Current Dealt:20200306163511118
+2020-03-06 17:09:37,100  [1]  INFO   消息队列消费程序启动...
+2020-03-06 17:09:39,449  [1]  INFO   The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text='NOT_FOUND - no queue 'PublishQrCode2' in vhost '/'', classId=60, methodId=20
+2020-03-06 17:10:03,738  [1]  INFO   消息队列消费程序启动...
+2020-03-06 17:10:05,950  [1]  INFO   The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text='NOT_FOUND - no queue 'PublishQrCode2' in vhost '/'', classId=60, methodId=20
+2020-03-06 18:06:48,647  [1]  INFO   消息队列消费程序启动...
+2020-03-06 18:08:18,867  [1]  INFO   The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text='NOT_FOUND - no queue 'PublishQrCode2' in vhost '/'', classId=60, methodId=20
+2020-03-06 18:08:52,734  [1]  INFO   消息队列消费程序启动...
+2020-03-06 18:11:09,401  [1]  INFO   The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text='NOT_FOUND - no queue 'PublishQrCode2' in vhost '/'', classId=60, methodId=20
+2020-03-06 18:17:24,253  [1]  INFO   消息队列消费程序启动...

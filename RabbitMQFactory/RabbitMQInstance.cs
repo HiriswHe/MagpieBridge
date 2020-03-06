@@ -81,7 +81,11 @@ namespace RabbitMQFactory
             };
             var _connection = _factory.CreateConnection();
             var _rabbitMQModel = rabbitMQModel;
+            var _channel = _connection.CreateModel();
             var instance = new RabbitMQInstance(_factory, _connection, _rabbitMQModel);
+            _channel.ExchangeDeclare(rabbitMQModel.Exchange, ExchangeType.Direct, durable: true, autoDelete: false, arguments: null);
+            _channel.QueueDeclare(rabbitMQModel.Queue, durable: true, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueBind(rabbitMQModel.Queue, rabbitMQModel.Exchange, rabbitMQModel.RoutingKey, null);
             return instance;
         }
 

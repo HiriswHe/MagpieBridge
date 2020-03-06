@@ -55,14 +55,7 @@ namespace RabbitMQHelper
                 instance = adminMQ;
             else
                 instance = RabbitMQInstance.Instance(publishName).FirstOrDefault();
-            if (instance == null) return;
-            var channel = instance.Channel;
-            if (string.IsNullOrEmpty(exchange)) exchange = instance.RabbitMQModel.Exchange;
-            if (string.IsNullOrEmpty(queue)) queue = instance.RabbitMQModel.Queue;
-            if (string.IsNullOrEmpty(routingKey)) routingKey = instance.RabbitMQModel.RoutingKey;
-            channel.ExchangeDeclare(exchange, ExchangeType.Direct, durable: true, autoDelete: false, arguments: null);
-            channel.QueueDeclare(queue, durable: true, exclusive: false, autoDelete: false, arguments: null);
-            channel.QueueBind(queue, exchange, routingKey, null);
+            if (instance == null) return;            
             PublishToQueue(ConstValues.Admin, publishName + ConstValues.PublishNameSepareter + message);
         }
     }

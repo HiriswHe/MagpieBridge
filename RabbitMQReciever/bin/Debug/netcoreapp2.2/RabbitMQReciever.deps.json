@@ -1296,7 +1296,9 @@
         "dependencies": {
           "RabbitMQHelper": "1.0.0",
           "RabbitMQRecieverInterface": "1.0.0",
-          "RabbitMQUtils": "1.0.0"
+          "RabbitMQUtils": "1.0.0",
+          "daoextend": "1.0.0.0",
+          "MTDB3.0To4.0.Domain": "1.0.0.0"
         },
         "runtime": {
           "RabbitMQConsumers.dll": {}
@@ -1353,6 +1355,22 @@
         },
         "runtime": {
           "Utils.dll": {}
+        }
+      },
+      "daoextend.Reference/1.0.0.0": {
+        "runtime": {
+          "daoextend.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MTDB3.0To4.0.Domain.Reference/1.0.0.0": {
+        "runtime": {
+          "MTDB3.0To4.0.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -2102,6 +2120,16 @@
     },
     "Utils/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "daoextend.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MTDB3.0To4.0.Domain.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
